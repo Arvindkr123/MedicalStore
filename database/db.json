@@ -32,7 +32,7 @@
       "name": "Amikacin",
       "description": "Decreased kidney function\nFeeling dizzy\nTrouble standing\nHearing a roaring noise",
       "price": "222",
-      "qty": -8,
+      "qty": 0,
       "id": 6
     },
     {
@@ -44,6 +44,23 @@
     }
   ],
   "cartMedicine": [
-      
+    {
+      "name": "Amikacin",
+      "description": "Decreased kidney function\nFeeling dizzy\nTrouble standing\nHearing a roaring noise",
+      "price": "222",
+      "id": 1
+    },
+    {
+      "name": "Amikacin",
+      "description": "Decreased kidney function\nFeeling dizzy\nTrouble standing\nHearing a roaring noise",
+      "price": "222",
+      "id": 2
+    },
+    {
+      "name": "Amikacin",
+      "description": "Decreased kidney function\nFeeling dizzy\nTrouble standing\nHearing a roaring noise",
+      "price": "222",
+      "id": 3
+    }
   ]
 }

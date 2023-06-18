@@ -16,7 +16,7 @@ const MedicineList = () => {
     const addToCartHandler = async (item, id) => {
         console.log('button clicked', item, id)
         await addToCartMedicine({ name: item.name, description: item.description, price: item.price });
-        await updateData({ name: item.name, description: item.description, price: item.price, qty:Number(item.qty) > 0 && Number(item.qty) - 1, id: id }, id)
+        await updateData({ name: item.name, description: item.description, price: item.price, qty: Number(item.qty) > 0 ? Number(item.qty) - 1 : 0, id: id }, id)
         getData();
     }
 
